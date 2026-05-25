@@ -1,0 +1,1 @@
+El archivo PDF es donde se encuentra una pequeña "vista previa" de cómo es que el código se muestra al ejecutarse
