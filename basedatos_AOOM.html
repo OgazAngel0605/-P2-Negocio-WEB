@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Negocio Web AOOM </title>
+ <style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 110, 200);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  footer { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 110, 200);
+    color: white;
+    font-size: 150%;
+    width: 100%;
+  }
+  
+  aside { 
+    display: flex;
+    background-color: rgb(0, 160, 230);
+    font-size: 130%;
+    float: left;
+    width: 20%;
+    min-height: 280vh;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  a { 
+    color: white;
+  }
+  
+  article { 
+    background-color: rgb(240, 240, 240); 
+    padding: 20px;
+  }
+
+  p { 
+    display: flex;
+    font-size: 110%;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .hola { 
+    display: flex;
+    flex-direction: column;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: white;
+  }
+  th, td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #006ec8;
+    color: white;
+  }
+  h2 {
+    color: #006ec8;
+    margin-top: 20px;
+    border-bottom: 2px solid #00a0e6;
+    padding-bottom: 5px;
+  }
+ </style>
+</head>
+
+<body>
+  <div>
+    <header>
+      <img src="dentistadentaglat.png" style="max-width: 100%;">
+    </header>
+
+	<aside>
+	<section>
+	<nav>
+	<ul>
+	 <li> <a href = "P2-NegocioWeb_AOOM_0605.html#"> Inicio </a></li>
+	<br>
+	 <li> <a href = "servicio_AOOM.html#"> Servicios </a></li>
+	<br>
+	 <li> <a href = "especialistas_AOOM.html#"> Especialistas </a></li>
+	<br>
+	 <li> <a href = "ubicontacto_AOOM.html#"> Contacto y ubicación </a></li>
+	<br>
+	 <li> <a href = "basedatos_AOOM.html#"> Registro y Control Clínico </a></li>
+	</ul>
+	</nav>
+	</section>
+	</aside>
+
+    <article class="hola">
+      <h1>&nbsp; Registro y Control Clínico</h1>
+      
+      <h2>1. Personal de la Clínica</h2>
+      <table>
+        <tr>
+          <th>Nombre</th>
+          <th>Género</th>
+          <th>Edad</th>
+          <th>Fecha de Nacimiento</th>
+          <th>Lugar de Nacimiento</th>
+          <th>Cargo</th>
+          <th>Especialidad</th>
+          <th>Teléfono</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Ana Ramírez</td>
+          <td>Femenino</td>
+          <td>42 años</td>
+          <td>15-03-1983</td>
+          <td>CDMX, MX</td>
+          <td>Directora Médica</td>
+          <td>Ortodoncia y Ortopedia Maxilofacial</td>
+          <td>+52-5512-3456</td>
+          <td>a.ramirez.dental@clinica.com</td>
+        </tr>
+        <tr>
+          <td>Roberto Sosa</td>
+          <td>Masculino</td>
+          <td>31 años</td>
+          <td>22-07-1994</td>
+          <td>Monterrey, N.L.</td>
+          <td>Odontólogo General</td>
+          <td>Licenciatura en Cirugía Dental / Diplomado en Estética</td>
+          <td>+52-9876-5432</td>
+          <td>rsosa_dent@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Luis Méndez</td>
+          <td>Masculino</td>
+          <td>38 años</td>
+          <td>05-11-1987</td>
+          <td>Puebla, Puebla</td>
+          <td>Especialista en Endodoncia</td>
+          <td>Master en Dirección de Centros Sanitarios / Endodoncia</td>
+          <td>+52-2345-6789</td>
+          <td>lmendez.especialista@clinica.com</td>
+        </tr>
+        <tr>
+          <td>Elena Vargas</td>
+          <td>Femenino</td>
+          <td>26 años</td>
+          <td>12-01-2000</td>
+          <td>Mérida, Yucatán</td>
+          <td>Asistente Dental</td>
+          <td>Técnico Superior en Higiene Bucodental</td>
+          <td>+52-9123-4567</td>
+          <td>elenav_asistente@outlook.com</td>
+        </tr>
+        <tr>
+          <td>Sofía Casal</td>
+          <td>Femenino</td>
+          <td>23 años</td>
+          <td>30-08-2002</td>
+          <td>Xalapa, Veracruz</td>
+          <td>Asistente Dental</td>
+          <td>Técnico en Auxiliar de Odontología</td>
+          <td>+52-8679-2453</td>
+          <td>s_casal.clinica@dentalsalud.com</td>
+        </tr>
+      </table>
+
+      <h2>2. Control de Pacientes</h2>
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Género</th>
+          <th>Fecha Registro</th>
+          <th>Domicilio Actual</th>
+          <th>Ocupación</th>
+          <th>Tutor</th>
+          <th>Teléfono</th>
+          <th>Antecedentes / Notas</th>
+        </tr>
+        <tr>
+          <td>CD</td>
+          <td>Juan Pérez López</td>
+          <td>34 años</td>
+          <td>Masculino</td>
+          <td>02-02-2026</td>
+          <td>Av. Vallarta 500, Gdl.</td>
+          <td>Contador público</td>
+          <td>N/A</td>
+          <td>53-1122-3344</td>
+          <td>Gingivitis localizada, Fumador activo</td>
+        </tr>
+        <tr>
+          <td>GHI</td>
+          <td>María García Ruíz</td>
+          <td>28 años, 9 meses</td>
+          <td>Femenino</td>
+          <td>08-02-2026</td>
+          <td>Calle Newton, Pol.</td>
+          <td>Mercadóloga</td>
+          <td>N/A</td>
+          <td>55-9876-5432</td>
+          <td>Tratamiento ortodóntico previo, Alergia: penicilina</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>Juan Pérez García</td>
+          <td>45 años, 6 meses</td>
+          <td>Masculino</td>
+          <td>12-02-2026</td>
+          <td>Sierra Gorda 120 Mty.</td>
+          <td>Arquitecto</td>
+          <td>N/A</td>
+          <td>81-5566-7788</td>
+          <td>Hipertensión arterial</td>
+        </tr>
+        <tr>
+          <td>JAN</td>
+          <td>María López Torres</td>
+          <td>28 años, 3 meses</td>
+          <td>Femenino</td>
+          <td>12-02-2026</td>
+          <td>El Mirador Casa 8</td>
+          <td>Maestra de Preescolar</td>
+          <td>N/A</td>
+          <td>44-2233-5566</td>
+          <td>Sensibilidad dental al frío</td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td>Ruíz Esparza Carlos</td>
+          <td>8 años, 8 meses</td>
+          <td>Masculino</td>
+          <td>12-02-2026</td>
+          <td>Col. La Paz 302</td>
+          <td>Estudiante de Preescolar</td>
+          <td>Roberto Ruíz (Padre)</td>
+          <td>22-2445-6677</td>
+          <td>Asma Infantil</td>
+        </tr>
+      </table>
+
+      <h2>3. Exámenes de Valoración Inicial</h2>
+      <table>
+        <tr>
+          <th>Paciente ID</th>
+          <th>Fecha / Hora</th>
+          <th>Motivo de Consulta</th>
+          <th>Signos Vitales</th>
+          <th>Evaluación Odontológica</th>
+          <th>Examen Intraoral / Extraoral</th>
+          <th>Médico Evaluador</th>
+          <th>Estatus</th>
+        </tr>
+        <tr>
+          <td>CD</td>
+          <td>02/02/2026<br>9:00 a.m.</td>
+          <td>Sensibilidad y sangrado de encías</td>
+          <td>PA: 120/80, Peso: 78Kg, T: 36.5°</td>
+          <td>Gingivitis inducida por placa</td>
+          <td>Sarro subgingival en anteroinferiores</td>
+          <td>Dra. Ana Ramírez</td>
+          <td>Asistió</td>
+        </tr>
+        <tr>
+          <td>GHI</td>
+          <td>08/02/2026<br>10:30 a.m.</td>
+          <td>Resina caída y blanqueamiento sugerido</td>
+          <td>PA: 110/70, Peso: 58Kg, T: 36.2°</td>
+          <td>Caries recurrente bajo restauración filtrada</td>
+          <td>Fractura parcial de restauración pieza 2.4</td>
+          <td>Dr. Roberto Sosa</td>
+          <td>Asistió</td>
+        </tr>
+        <tr>
+          <td>A</td>
+          <td>12/02/2026<br>9:00 a.m.</td>
+          <td>Dolor en mandíbula y dientes desgastados</td>
+          <td>PA: 135/85, Peso: 85Kg, T: 36.6°</td>
+          <td>Bruxismo céntrico y excéntrico</td>
+          <td>Atrición dental, Hipertrofia de maseteros</td>
+          <td>Dra. Elena Vargas</td>
+          <td>Asistió</td>
+        </tr>
+        <tr>
+          <td>JAN</td>
+          <td>12/02/2026<br>10:15 a.m.</td>
+          <td>Revisión de ortodoncia</td>
+          <td>PA: 115/75, Peso: 65Kg, T: 36.8°</td>
+          <td>Evolución de alineación y nivelación</td>
+          <td>Aparatología fija (brackets)</td>
+          <td>Dr. Luis Méndez</td>
+          <td>Asistió</td>
+        </tr>
+        <tr>
+          <td>B</td>
+          <td>12/02/2026<br>11:00 a.m.</td>
+          <td>Dolor de muela</td>
+          <td>PA: 100/60, Peso: 26Kg, T: 36.4°</td>
+          <td>Caries con posible compromiso pulpar</td>
+          <td>Dentición mixta, Caries profunda pieza 75</td>
+          <td>Dra. Sofía Casal</td>
+          <td>Asistió</td>
+        </tr>
+      </table>
+
+      <h2>4. Fichas de Seguimiento Diario y Tratamientos</h2>
+      <table>
+        <tr>
+          <th>Paciente</th>
+          <th>Fecha Consulta</th>
+          <th>Diagnóstico</th>
+          <th>Tratamiento Realizado</th>
+          <th>Materiales Utilizados</th>
+          <th>Operador</th>
+        </tr>
+        <tr><td>CD</td><td>10/02/26</td><td>Gingivitis inducida por placa</td><td>Profilaxis y técnica de higiene</td><td>Ultrasonido, Pasta Profiláctica</td><td>Dra. A. Ramírez</td></tr>
+        <tr><td>GHI</td><td>15/02/26</td><td>Caries recurrente pieza 2.4</td><td>Eliminación de caries y cavidad</td><td>Fresas de Carburo</td><td>Dr. R. Sosa</td></tr>
+        <tr><td>A</td><td>18/02/26</td><td>Bruxismo severo</td><td>Examen oclusal y toma de impresión</td><td>Alginato, Arco Facial</td><td>Dra. E. Vargas</td></tr>
+        <tr><td>B</td><td>20/02/26</td><td>Caries profunda pieza 75</td><td>Apertura cameral (Urgencia)</td><td>Fresas, Anestesia infantil</td><td>Dra. S. Casal</td></tr>
+        <tr><td>GHI</td><td>22/02/26</td><td>Cavidad limpia pieza 2.4</td><td>Restauración estética</td><td>Resina Compuesta, Adhesivos</td><td>Dr. R. Sosa</td></tr>
+        <tr><td>CD</td><td>24/02/26</td><td>Periodontitis leve (Bolsas 4mm)</td><td>Raspado y alisado radicular (1er cuad)</td><td>Curetas Gracey, Clorhexidina</td><td>Dra. A. Ramírez</td></tr>
+        <tr><td>A</td><td>25/02/26</td><td>Desgaste dental</td><td>Registro de mordida</td><td>Cera de Campe, Silicona</td><td>Dra. E. Vargas</td></tr>
+        <tr><td>B</td><td>27/02/26</td><td>Pulpitis reversible</td><td>Pulpotomía</td><td>MTA, Formocresol</td><td>Dra. S. Casal</td></tr>
+        <tr><td>GHI</td><td>28/02/26</td><td>Pigmentaciones extrínsecas</td><td>Limpieza previa a blanqueamiento</td><td>Bicarbonato a Presión</td><td>Dr. R. Sosa</td></tr>
+        <tr><td>A</td><td>01/03/26</td><td>Rehabilitación</td><td>Prueba de guarda oclusal</td><td>Acrílico Termocurable</td><td>Dra. E. Vargas</td></tr>
+        <tr><td>B</td><td>03/03/26</td><td>Reconstrucción post-pulpo</td><td>Preparación para corona</td><td>Fresas de Diamante</td><td>Dra. S. Casal</td></tr>
+        <tr><td>GHI</td><td>05/03/26</td><td>Deseo de aclaramiento</td><td>Toma de impresiones para guardas</td><td>Alginato, cubetas</td><td>Dr. R. Sosa</td></tr>
+        <tr><td>CD</td><td>07/03/26</td><td>Periodontitis leve (Bolsas 4mm)</td><td>Raspado y alisado radicular (2do cuad)</td><td>Curetas Gracey, Anestesia</td><td>Dra. A. Ramírez</td></tr>
+        <tr><td>A</td><td>08/03/26</td><td>Puntos prematuros</td><td>Ajuste oclusal de la guarda</td><td>Papel de Articular</td><td>Dra. E. Vargas</td></tr>
+        <tr><td>JAN</td><td>09/03/26</td><td>Apiñamiento anterosuperior</td><td>Cambio de ligaduras y arco</td><td>Arcos Acero 0.18, Elastómero</td><td>Dr. L. Méndez</td></tr>
+        <tr><td>B</td><td>10/03/26</td><td>Rehabilitación infantil</td><td>Colocación de corona</td><td>Acero, Cromo, Ionómero</td><td>Dra. S. Casal</td></tr>
+        <tr><td>GHI</td><td>12/03/26</td><td>Blanqueamiento dental</td><td>Entrega de kits y guarda casera</td><td>Peróxido de Carbamida 15%</td><td>Dr. R. Sosa</td></tr>
+        <tr><td>CD</td><td>21/03/26</td><td>Hipersensibilidad dentaria</td><td>Aplicación de desensibilizante</td><td>Barniz de Flúor, Gluma</td><td>Dra. A. Ramírez</td></tr>
+        <tr><td>A</td><td>22/03/26</td><td>Control de sintomatología</td><td>Revisión de ATM y muscular</td><td>Palpación Clínica</td><td>Dra. E. Vargas</td></tr>
+        <tr><td>B</td><td>24/03/26</td><td>Caries iniciales pieza 36,46</td><td>Aplicación de selladores</td><td>Sellador de fosetas y fisuras</td><td>Dra. S. Casal</td></tr>
+        <tr><td>GHI</td><td>26/03/26</td><td>Control de color</td><td>Pulido final de resina 2.4</td><td>Discos Soft-lex</td><td>Dr. R. Sosa</td></tr>
+        <tr><td>CD</td><td>07/04/26</td><td>Control de tejidos</td><td>Reevaluación periodontal</td><td>Sonda OMS</td><td>Dra. A. Ramírez</td></tr>
+        <tr><td>JAN</td><td>09/04/26</td><td>Gingivitis gestacional</td><td>Limpieza superficial</td><td>Profilaxis Mecánica</td><td>Dr. L. Méndez</td></tr>
+        <tr><td>B</td><td>10/04/26</td><td>Control de placa</td><td>Técnica de cepillado y flúor</td><td>Barniz de Flúor 5%</td><td>Dra. S. Casal</td></tr>
+        <tr><td>CD</td><td>21/04/26</td><td>Salud gingival estable</td><td>Limpieza de mantenimiento</td><td>Copa de hule, Flúor</td><td>Dra. A. Ramírez</td></tr>
+        <tr><td>A</td><td>22/04/26</td><td>Seguimiento mensual</td><td>Ajuste fino de guarda</td><td>Motor de Baja, Fresones</td><td>Dra. E. Vargas</td></tr>
+        <tr><td>JAN</td><td>06/05/26</td><td>Diastema residual</td><td>Cadena para cierre</td><td>Elastómero en Cadena</td><td>Dr. L. Méndez</td></tr>
+        <tr><td>JAN</td><td>04/06/26</td><td>Seguimiento ortodóntico</td><td>Ajuste de torque</td><td>Piezas de Ortodoncia</td><td>Dr. L. Méndez</td></tr>
+      </table>
+    </article>
+    
+    <footer>
+      <h3> Ogaz Maravillo Angel Omar <br> 24308051280605 <br> 4°I <br> Programación </h3>
+    </footer>
+  </div>
+</body>
+</html>
