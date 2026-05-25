@@ -4,3 +4,4 @@
    "index.html"
 
 3. Hay un archivo .zip. El archivo .zip es simplemente para descargar, en caso de que se desee, la carpeta con todos sus archivos.
+   (El archivo "index" tiene un nombre parecido a "P2-NegocioWeb.html" dentro de este archivo comprimido).
